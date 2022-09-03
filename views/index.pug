@@ -1,0 +1,61 @@
+
+doctype html
+html 
+  head 
+    title Super Dance Acedemy 
+    style 
+      include ../static/style.css
+  body 
+    nav#navbar
+        ul
+           div#logo
+              img(src="/static/img/logo.png")
+              | SDA 
+           li #[a(href="/") Home] 
+           li #[a(href="/") About] 
+           li #[a(href="/") Service] 
+           li #[a(href="/") Class Info] 
+           li #[a(href="/") Contact Us] 
+    
+    section#introSection 
+        div Welcome to Super Dance Acedemy 
+        div.small Eat Sleep Dance Repeat 
+
+    section#missionSection
+        h2 Our Mission 
+        div.card 
+          h3 Dance Perfection  
+          div.card-box
+              div.card-img 
+                  img(src="/static/img/1.png")
+              div.card-content 
+                  p This is the best dance acedemy of the universe
+        div.card 
+          h3 Dance the way you like 
+          div.card-box
+              div.card-img 
+                  img(src="/static/img/2.png")
+              div.card-content 
+                  p This is the best dance acedemy of the universe
+        div.card 
+          h3 Expert Teaching 
+          div.card-box
+              div.card-img 
+                  img(src="/static/img/3.png")
+              div.card-content 
+                  p This is the best dance acedemy of the universe
+
+
+    section#sponsorSection 
+        h2  Our sponsors 
+        div#sponsors 
+            img(src="/static/img/logo1.png", alt="Sponsors Image" Class="spImage")
+            img(src="/static/img/logo2.png", alt="Sponsors Image" Class="spImage")
+            img(src="/static/img/logo3.png", alt="Sponsors Image" Class="spImage")
+            img(src="/static/img/logo4.png", alt="Sponsors Image" Class="spImage")
+            
+    footer#footer  
+        | Copyright © 2022 SuperDanceAcedemy.com | All Rights Reserved
+    
+  script 
+       include ../static/index.js    

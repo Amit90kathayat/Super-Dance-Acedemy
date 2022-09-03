@@ -1,0 +1,21 @@
+{
+  "name": "dance-website",
+  "version": "1.0.0",
+  "description": "This is a website for a popular dance acedemy",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Amit",
+  "license": "ISC",
+  "dependencies": {
+    "body": "^5.1.0",
+    "express": "^4.18.1",
+    "mongoose": "^6.5.3",
+    "parser": "^0.1.4",
+    "pug": "^3.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
